@@ -33,12 +33,12 @@ fi
 # 环境变量配置
 PROJECT_NAME="legal_ai"
 PROJECT_PATH="/var/www/$PROJECT_NAME"
-DOMAIN_NAME="lawaichat.top"
+DOMAIN_NAME="your_domain.com"  # 替换为你的域名
 PORT="8080"
 GIT_REPO="https://github.com/Mmxfq/Law-AI.git"
-# GitHub认证信息（如果是私有仓库，取消注释下面的变量并填写）
-GITHUB_TOKEN="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"
-#GITHUB_SSH_KEY="your_private_key_path"
+# GitHub认证信息（如果是私有仓库，请配置以下变量）
+GITHUB_TOKEN="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"  # 请在运行脚本时设置你的 GitHub Token
+#GITHUB_SSH_KEY=""  # 或者设置你的 SSH 密钥路径
 # 选择认证方式: token 或 ssh
 AUTH_METHOD="token"
 
